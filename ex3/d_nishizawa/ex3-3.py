@@ -7,7 +7,7 @@ from pathlib import Path
 
 def sort_rows_and_corresponding(matrix: list, row_index: int) -> list:
     """ある行をソートしたら対応する列も一緒にソートする関数
-    
+
     Args:
         matrix (list): ソートする行列
         row_index (int): ソートの基準となる行列の行番号
